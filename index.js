@@ -28,7 +28,6 @@ app.listen(PORT, () => {
 });
 
 app.post("/", async (req, res) => {
-  //await console.log(req.body.mensaje);
   let respuesta;
   const m = new M({ mensaje: req.body.mensaje });
   try {
@@ -38,6 +37,5 @@ app.post("/", async (req, res) => {
     console.error(error);
     respuesta = { error: "Error" };
   }
-  //res.json(respuesta);
-  res.redirect("/");
+  res.json(respuesta);
 });

@@ -6,6 +6,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Portafolio personal</title>
     <style>
+      #git-img{
+            height: 24px;
+            width: 24px;
+            margin-right: 5px;
+          }
+          .git{
+            margin-top: 10px;
+          }
         @media (max-width: 1200px) {
           nav {
             grid-template-columns: 10fr 3fr 3fr 4fr;
@@ -14,9 +22,35 @@
         @media (max-width: 750px) {
           nav {
             grid-template-columns: 4fr 3fr 3fr 4fr;
+            height: 60px;
           }
           a {
             font-size: 15px; 
+          }
+          #git-img{
+            height: 16px;
+            width: 16px;
+            margin-right: 5px;
+          }
+          .git{
+            margin-top: 5px;
+          }
+          .ws_h1{
+            font-size: x-large;
+          }
+        }
+        @media (max-width: 470px) {
+          a {
+            font-size: 12px; 
+          }
+          nav{
+            height: 50px;
+          }
+          .git{
+            margin-top: -1px;
+          }
+          .ws_h1{
+            font-size: medium;
           }
         }
     </style>
@@ -25,7 +59,7 @@
     <nav id="navbar">
         <a class="n1" href="#welcome-section">Bienvenido</a>
         <a class="n2" href="#projects">Proyectos</a>
-        <a id="profile-link" href="https://github.com/lukkhan40" target="_blank"> <img src="img/github.png">lukkhan40</a>
+        <a id="profile-link" href="https://github.com/lukkhan40" target="_blank" class="git"> <img src="img/github.png" class="git" id="git-img">lukkhan40</a>
     </nav>
     <div class="separador"></div>
     <section id="welcome-section">
