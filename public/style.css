@@ -74,3 +74,38 @@ a {
   grid-row: 4/5;
   text-align: center;
 }
+#contact {
+  width: 100%;
+  height: 20vh;
+}
+#contact form {
+  width: 30%;
+  height: 70%;
+  min-width: 300px;
+  min-height: 130px;
+  margin: 55px auto;
+  border: 2px solid white;
+}
+input {
+  margin: auto;
+  margin-top: 30px;
+  display: block;
+  outline: none;
+  border: none;
+}
+.mensaje {
+  width: 80%;
+  border-bottom: 1px solid white;
+  font-size: 20px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+.submit {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100px;
+  height: 30px;
+  border: 1px solid white;
+  background-color: #222;
+  color: white;
+}
